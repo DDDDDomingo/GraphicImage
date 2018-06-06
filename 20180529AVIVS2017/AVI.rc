@@ -1,0 +1,272 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AVI.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\AVI.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 AVI"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "AVI 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2018",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_AVI_DIALOG DIALOGEX 0, 0, 500, 437
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "16905327 杨道铨"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,343,401,34,18
+    PUSHBUTTON      "取消",IDCANCEL,377,401,35,18
+    PUSHBUTTON      "Open",IDC_OPEN_BTN,413,401,32,18
+    PUSHBUTTON      "Process",IDC_PRO_BTN,446,401,40,18
+    LTEXT           "目前帧数：",IDC_STATIC,12,406,42,8
+    LTEXT           "总帧数：",IDC_STATIC,66,406,34,8
+    LTEXT           "？",IDC_CURRENT_FRAME,53,406,9,8
+    LTEXT           "？",IDC_TOTAL_FRAME,99,406,9,8
+    PUSHBUTTON      "缩放倍数",IDABORT,446,383,40,18
+    EDITTEXT        IDC_EDIT1,413,385,30,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "田字",IDC_BUTTON3,311,401,32,18
+    PUSHBUTTON      "100ms",IDC_BUTTON4,312,382,24,18
+    PUSHBUTTON      "500ms",IDC_BUTTON5,338,382,24,18
+    PUSHBUTTON      "1s",IDC_BUTTON6,363,382,24,18
+    PUSHBUTTON      "2s",IDC_BUTTON7,388,382,24,18
+    LTEXT           "",IDC_NOW_TIME,18,388,89,8
+    PUSHBUTTON      "添加水印",IDC_BUTTON8,233,401,39,18
+    PUSHBUTTON      "灰度化",IDC_BUTTON9,233,382,39,18
+    PUSHBUTTON      "垂直镜像",IDC_BUTTON10,193,382,40,18
+    PUSHBUTTON      "水平镜像",IDC_BUTTON11,193,401,40,18
+    PUSHBUTTON      "高斯模糊",IDC_BUTTON12,129,401,40,18
+    PUSHBUTTON      "无处理",IDC_BUTTON13,129,382,40,18
+    EDITTEXT        IDC_EDIT_SIGMA,173,403,16,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_X,274,403,17,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YGET,294,403,16,14,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,281,394,9,8
+    LTEXT           "Y",IDC_Y,299,394,9,8
+    LTEXT           "Sigma",IDC_STATIC,171,394,21,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "AVI Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "AVI"
+            VALUE "LegalCopyright", "版权所有 (C) 2010"
+            VALUE "OriginalFilename", "AVI.EXE"
+            VALUE "ProductName", "AVI 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_AVI_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 493
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 430
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_AVI_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "延迟设置(&Q)"
+    BEGIN
+        MENUITEM "100ms(&W)",                   ID_32777
+        MENUITEM "500ms(&E)",                   IDC_BUTTON5
+        MENUITEM "1s(&R)",                      IDC_BUTTON6
+        MENUITEM "2s(&T)",                      IDC_BUTTON7
+    END
+    POPUP "显示设置(&A)"
+    BEGIN
+        MENUITEM "设置缩放(&S)",                    IDABORT
+        MENUITEM "田字显示(&D)",                    IDC_BUTTON3
+        MENUITEM "播放(&F)",                      IDC_PRO_BTN
+    END
+    POPUP "图像处理(&Z)"
+    BEGIN
+        MENUITEM "无处理(&X)",                     IDC_BUTTON13
+        MENUITEM "添加水印(&C)",                    IDC_BUTTON8
+        MENUITEM "灰度化(&V)",                     IDC_BUTTON9
+        MENUITEM "垂直镜像(&B)",                    IDC_BUTTON10
+        MENUITEM "水平镜像(&N)",                    IDC_BUTTON11
+        MENUITEM "高斯模糊(&M)",                    IDC_BUTTON12
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 AVI(&A)..."
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\AVI.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
